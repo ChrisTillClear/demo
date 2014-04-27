@@ -3,66 +3,7 @@ body { background-image: url(http://i.stack.imgur.com/jGlzr.png); }
 #container{
   height:629px
 }
-p{font-family:Helvetica, Ariel, sans-serif;}
-nav {
-  background-color: gray;
-  border: 2px solid black;
-  border-radius: 10px;
-  height: 50px;
-  background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 67%, rgba(255,255,255,1) 70%, rgba(255,255,255,1) 79%, rgba(255,255,255,0) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right bottom, color-stop(67%,rgba(255,255,255,1)), color-stop(70%,rgba(255,255,255,1)), color-stop(79%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 67%,rgba(255,255,255,1) 70%,rgba(255,255,255,1) 79%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(-45deg,  rgba(255,255,255,1) 67%,rgba(255,255,255,1) 70%,rgba(255,255,255,1) 79%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(-45deg,  rgba(255,255,255,1) 67%,rgba(255,255,255,1) 70%,rgba(255,255,255,1) 79%,rgba(255,255,255,0) 100%); /* IE10+ */
-background: linear-gradient(135deg,  rgba(255,255,255,1) 67%,rgba(255,255,255,1) 70%,rgba(255,255,255,1) 79%,rgba(255,255,255,0) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
-}
-nav ul{
-  list-style: none;
-  font-family: Helvetica, Ariel
-  
-}
-nav a {
-  display: block; float:left;
-  text-decoration: none;
-    color: black;
-    padding: 8px 8px 8px 8px;
-
-}
-
-body
-{
-border: 4px solid black;
-border-radius:25px;
-
-}
-
-#content {
-  width: 60%;
-  display:block;
-  float:left;
-  padding:10px;
-}
-
-sidebar {
-  display: block;
-  width: 30%;
-  float: right;
-  border-style: solid; 
-  border-radius:10px;
- background: rgb(246,248,249); /* Old browsers */
-background: -moz-linear-gradient(-45deg,  rgba(246,248,249,1) 0%, rgba(229,235,238,1) 24%, rgba(215,222,227,1) 53%, rgba(245,247,249,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(246,248,249,1)), color-stop(24%,rgba(229,235,238,1)), color-stop(53%,rgba(215,222,227,1)), color-stop(100%,rgba(245,247,249,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(-45deg,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 24%,rgba(215,222,227,1) 53%,rgba(245,247,249,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(-45deg,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 24%,rgba(215,222,227,1) 53%,rgba(245,247,249,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(-45deg,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 24%,rgba(215,222,227,1) 53%,rgba(245,247,249,1) 100%); /* IE10+ */
-background: linear-gradient(135deg,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 24%,rgba(215,222,227,1) 53%,rgba(245,247,249,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-
-  }
- 
 footer
 {
 
@@ -94,7 +35,6 @@ body {
 h1 {
 	font-size:32px;
 	color:#006600;
-	background-color:#222222;
 	}
 	
 h2 {
